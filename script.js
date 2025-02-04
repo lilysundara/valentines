@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // No Button Moves Away
-    noBtn.addEventListener("mouseover", function () {
+    noBtn.addEventListener("click", function () {
         const x = Math.random() * window.innerWidth * 0.8;
         const y = Math.random() * window.innerHeight * 0.8;
         noBtn.style.left = `${x}px`;
